@@ -43,16 +43,18 @@ public class Main {
         System.out.println();
 
 
-                for (int y = 0; y < size; y++) {
-                    for (int x= 0; x < size; x++) {
-                        if ( y + x ==size-1 ) {
-                            System.out.print("*");
-                        } else {
-                            System.out.print(" ");
-                        }
-                    }
-                    {
-                    }System.out.println();}
+        for (int y = 0; y < size; y++) {
+            for (int x = 0; x < size; x++) {
+                if (y + x == size - 1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            {
+            }
+            System.out.println();
+        }
 
 
                   /*System.out.println("*******");
@@ -62,21 +64,75 @@ public class Main {
                     System.out.println("***");
                     System.out.println("**");
                     System.out.println("*");*/
-                    {
-                     System.out.println();
+        {
+            System.out.println();
+            {
 
-                    int size1 = 7;
+                for (int u = 7; u > 0; u--) {
+                    for (int w = 0; w < u; w++) {
+                        System.out.print("*");
+                    }
 
-                    for (int u = 0; u < size1; u++){
-                        for (int w= 0; w < size1-u; w++){
-                            System.out.print("*");}
+                    System.out.println();
+                }
 
-                        System.out.println();
+                System.out.println();
+
+                for (int u = 1; u <= 7; u++) {
+                    for (int w = 0; w < u; w++) {
+                        System.out.print("*");
+                    }
+                    System.out.println();
+                }
+            }
+        }
+
+                 /* System.out.println("       *   ");
+                    System.out.println("      ***   ");
+                    System.out.println("     *****   ");
+                    System.out.println("    *******  ");
+                    System.out.println("   *********  ");
+                    System.out.println("  ***********  ");
+                    System.out.println(" **************");*/
+        System.out.println();
+
+        for (int f = 0; f <7; f++) {
+
+            for (int l = 0; l < 7  - f-1; l++) {
+                System.out.print(" ");
+            }
+            for (int k = 0; k < 2 * f + 1; k++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+
+        /*                            ("        *   ");
+                                      ("      * * *   ");
+                                     ("     * * * * *   ");
+                                     ("   * * * * * * *  ");
+                                    ("  * * * * * * * * * ");
+                                  ("  * * * * * * * * * * *  ");
+                                ( " * * * * * * * * * * * * *");
+                                  ("  * * * * * * * * * * *  ");
+                                    ("  * * * * * * * * *  ");
+                                     ("   * * * * * * *  ");
+                                     ("     * * * * *   ");
+                                      ("      * * *   ");
+                                      ("        *   ");
+                          */
 
 
 
 
-                        }}}}
+}}
+
+
+
+
+
+
 
 
 
