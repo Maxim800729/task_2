@@ -18,6 +18,7 @@ public class Main {
             System.out.println();
         }
 
+
         //System.out.println("*");
         //System.out.println(" *");
         //System.out.println("  *");
@@ -26,107 +27,151 @@ public class Main {
         //System.out.println("     *");
         //System.out.println("      *");
         //System.out.println("       *");
-
-        int size = 8;
-
-        for (int y = 0; y < size; y++) {
-            for (int x = 0; x < size; x++) {
-                if (y == x) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            System.out.println();
+        for (int h = 0; h <= 8; h++) {
+            for (int x = 0; x <0+ h; x++) {
+                System.out.print(" ");
         }
-
-        System.out.println();
-
-
-        for (int y = 0; y < size; y++) {
-            for (int x = 0; x < size; x++) {
-                if (y + x == size - 1) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
-            {
-            }
-            System.out.println();
+            System.out.println("*");
         }
+        //System.out.println("        *");
+        //System.out.println("       *");
+        //System.out.println("      *");
+        //System.out.println("     *");
+        //System.out.println("    *");
+        //System.out.println("   *");
+        //System.out.println("  *");
+        //System.out.println(" *");
 
-
-                  /*System.out.println("*******");
-                    System.out.println("******");
-                    System.out.println("*****");
-                    System.out.println("****");
-                    System.out.println("***");
-                    System.out.println("**");
-                    System.out.println("*");*/
-        {
-            System.out.println();
-            {
-
-                for (int u = 7; u > 0; u--) {
-                    for (int w = 0; w < u; w++) {
-                        System.out.print("*");
-                    }
-
-                    System.out.println();
-                }
-
-                System.out.println();
-
-                for (int u = 1; u <= 7; u++) {
-                    for (int w = 0; w < u; w++) {
-                        System.out.print("*");
-                    }
-                    System.out.println();
-                }
-            }
-        }
-
-                 /* System.out.println("       *   ");
-                    System.out.println("      ***   ");
-                    System.out.println("     *****   ");
-                    System.out.println("    *******  ");
-                    System.out.println("   *********  ");
-                    System.out.println("  ***********  ");
-                    System.out.println(" **************");*/
-        System.out.println();
-
-        for (int f = 0; f <7; f++) {
-
-            for (int l = 0; l < 7  - f-1; l++) {
+        System.out.println();{
+        for (int e =0; e < 8;e++){
+            for (int l=0; l<7-e; l++){
                 System.out.print(" ");
             }
-            for (int k = 0; k < 2 * f + 1; k++) {
+                System.out.println("*");
+        }
+    }
+               System.out.println();
+
+           //System.out.println("*");
+           //System.out.println("**");
+           //System.out.println("***");
+           //System.out.println("****");
+           //System.out.println("*****");
+           //System.out.println("******");
+           //System.out.println("*******");
+
+        for (int k = 0; k<7 ; k++){
+            for (int m = 0; m<0+k; m++){
+         System.out.print("*");
+            }
+            System.out.println("*");
+        }
+        System.out.println();
+
+                    //System.out.println("*******");
+                    //System.out.println("******");
+                    //System.out.println("*****");
+                    //System.out.println("****");
+                    //System.out.println("***");
+                    //System.out.println("**");
+                    //System.out.println("*");
+        for (int n =0; n<8; n++) {
+            for (int j = 0; j <= 6-n; j++) {
+                System.out.print("*");}
+                System.out.println("*");
+            }
+        System.out.println();
+
+                    //System.out.println("      *   ");
+                    //System.out.println("     ***   ");
+                    //System.out.println("    *****   ");
+                    //System.out.println("   *******  ");
+                    //System.out.println("  *********  ");
+                    //System.out.println(" ***********  ");
+                    //System.out.println("**************");
+
+        for (int z =1; z <=7;z++){
+            for (int c = 1; c <=7-z;c++) {//количество пробелов перед* на каждом уровне
+                System.out.print(" ");
+            }
+            for (int c1 =1;c1<=(2 * z-1);c1++){
+                System.out.print('*');//Количество * на данном уровне
+            }    System.out.println();//Переход на новую строку после каждого уровня
+        }
+        System.out.println();
+
+      /*System.out.println("      *   ");
+        System.out.println("     ***   ");
+        System.out.println("    *****   ");
+        System.out.println("   *******  ");
+        System.out.println("  *********  ");
+        System.out.println(" ***********  ");
+        System.out.println("**************");
+        System.out.println(" ***********  ");
+        System.out.println("  *********  ");
+        System.out.println("   *******  ");
+        System.out.println("    *****   ");
+        System.out.println("     ***   ");
+        System.out.println("      *   ");   */
+
+
+        for (int z1 =1; z1 <=7;z1++){
+            for (int c1 = 1; c1 <=7-z1;c1++) {//количество пробелов перед* на каждом уровне
+                System.out.print(" ");
+            }
+            for (int c2 =1;c2<=(2 * z1-1);c2++){
+                System.out.print('*');//Количество * на данном уровне
+            }    System.out.println();//Переход на новую строку после каждого уровня
+        }
+              //низ
+        for (int w =6; w>=1; w--) {
+            for (int y = 1; y <= 7 - w; y++) {
+                System.out.print(" ");
+            }
+            for (int c3 = 1; c3 <= (2 * w - 1); c3++) {
                 System.out.print("*");
             }
-
             System.out.println();
         }
-
-        /*                            ("        *   ");
-                                      ("      * * *   ");
-                                     ("     * * * * *   ");
-                                     ("   * * * * * * *  ");
-                                    ("  * * * * * * * * * ");
-                                  ("  * * * * * * * * * * *  ");
-                                ( " * * * * * * * * * * * * *");
-                                  ("  * * * * * * * * * * *  ");
-                                    ("  * * * * * * * * *  ");
-                                     ("   * * * * * * *  ");
-                                     ("     * * * * *   ");
-                                      ("      * * *   ");
-                                      ("        *   ");
-                          */
+            }
+        }
 
 
 
 
-}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
